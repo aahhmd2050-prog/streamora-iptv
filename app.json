@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "مشغل IPTV احترافي",
+    "slug": "iptv-player",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "iptv-player",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.streamora.iptvplayer",
+      "versionCode": 1,
+      "supportsTablet": true,
+      "usesCleartextTraffic": true,
+      "banner": "./assets/images/icon.png"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": ["expo-router", "expo-camera", "./plugins/withAndroidTv"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
